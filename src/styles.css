@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url('./assets/Bckground.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.st1{
+    padding-top: 100px;
+    padding-left: 450px;
+}
+
+.st2{
+    padding-top: 8px;
+    padding-left: 450px;
+    color: #5a3d55;
+}
+.st3{
+    padding-top: 8px;
+    padding-left: 300px;
+    color: #5a3d55;
+}
+
+.bookmrklist{
+    padding-top: 100px;
+    padding-left: 450px;
+}
+
+.createbm{
+    padding-top: 100px;
+    padding-left: 400px;
+}

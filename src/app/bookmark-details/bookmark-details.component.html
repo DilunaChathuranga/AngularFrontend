@@ -1,0 +1,29 @@
+<div class="bookmrklist">
+<h2>Bookmark Details</h2> 
+
+<hr/>
+<div *ngIf="bookmark">
+  <div>
+    <label><b>ID: </b></label> {{bookmark.id}}
+  </div>
+  <div>
+    <label><b>Name: </b></label> {{bookmark.name}}
+  </div>
+  <div>
+      <div>
+          <label><b>Status: </b></label> {{bookmark.status}}
+    </div>
+
+    <label><b>URL: </b></label> {{bookmark.url}}
+  </div>  
+  <div>
+    <label><b>Description: </b></label> {{bookmark.expiry_date}}
+  </div>
+
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Bookmark List</button><br>
+</div>
+
